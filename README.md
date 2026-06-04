@@ -1,15 +1,15 @@
-# Contribution [#]: [Issue Title]
+# Contribution [739]: [python: Add comprehensive Google-style docstrings to telegram_bot.py helpers]
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** [1]  
+**Student:** [Ambonique Thomas]  
+**Issue:** [https://github.com/marketcalls/openalgo/issues/897]  
+**Status:** [Phase I] [In Progress]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+[I choose this issue because I have an interest in the trading field. To start my my contributing journey, I choose a documentation issue to get used to the codebase. This issue matches my skills because I haven't worked in a large codebase before. I'm hoping to learn how to read other users code, communicating with other developers, and to understand a large codebase.]
 
 ---
 
@@ -17,19 +17,19 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+[There are two helper functions that need Google-style docstrings with Args, Returns, Raises, and Example sections.]
 
 ### Expected Behavior
 
-[What should happen?]
+[Code shouldn't change because this issue only asks for comments. Although, when other users read the comments, they should be able to understand how the function works and outputs.]
 
 ### Current Behavior
 
-[What actually happens?]
+[Both mentioned functions have basic comments that doesn't use Python documentation conventions PEP 257.]
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+[The affected file is restx_api/telegram_bot.py .]
 
 ---
 
