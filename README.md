@@ -37,19 +37,23 @@
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+[To use opernalgo, I would need an Indian Dhan account to use the Analyzer tool. The project only needs the dependancy `uv` and at least `Python 3.12` to work.
+
+Working Branch: https://github.com/AmboThom/openalgo/tree/feature/doc-touch-up]
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. [Navigate to restx_api/telegram_bot.py]
+2. [Read both functions to understand how they work.]
+3. [Read the functions callers to understand how they are used.]
+4. [**Expected:** One line docstrings]
+5. [**Actual:** Detailed Google-style docstrings]
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Commit showing reproduction:** [https://github.com/AmboThom/openalgo/tree/feature/doc-touch-up]
+- **Screenshots/logs:** [N/A]
+- **My findings:** [It wasn't stated that the project is for Indian Dhan accounts or Indian brokers. Users in other countries will not be able to use some of the tools.]
 
 ---
 
@@ -67,20 +71,20 @@
 
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** [For the functions, `run_async()` and `get_webhook_secret`, add Google-style docstrings using PEP 257.]
 
-**Match:** [What similar patterns/solutions exist in the codebase?]
+**Match:** [Functions are documented the same so the pattern is similar.]
 
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+**Plan:** 
+1. [Read both functions to understand how they work]
+2. [Read PEP 257 to understand how to write Google-style docstrings]
+3. [Update docstrings for both functions]
 
-**Implement:** [Link to your branch/commits as you work]
+**Implement:** [https://github.com/AmboThom/openalgo/tree/feature/doc-touch-up]
 
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
+**Review:** [I will review PEP 257 and follow the guidlines to ensure the docstrings are completed.]
 
-**Evaluate:** [How will you verify it works?]
+**Evaluate:** [Manually review the docstrings to make sure the reader can understand the functions.]
 
 ---
 
