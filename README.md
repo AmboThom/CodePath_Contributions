@@ -37,7 +37,7 @@
 
 ### Environment Setup
 
-[To use opernalgo, I would need an Indian Dhan account to use the Analyzer tool. The project only needs the dependancy `uv` and at least `Python 3.12` to work.
+[To use openalgo, I would need an Indian Dhan account to use the Analyzer tool. The project only needs the dependancies `uv` and at least `Python 3.12` to work.
 
 Working Branch: https://github.com/AmboThom/openalgo/tree/feature/doc-touch-up]
 
@@ -123,7 +123,7 @@ Using UMPIRE framework (adapted):
 - **Files modified:** [restx_api/telegram_bot.py]
 - **Key commits:** [https://github.com/marketcalls/openalgo/commit/911d4a2427ae8f02fb0f57ad861cce4303a977d2
 https://github.com/marketcalls/openalgo/commit/32de5f2768b49064cdbb53d0255f6ae56ef2ffe1]
-- **Approach decisions:** [I separated the coomits to keep the commits organzied and to pace myself.]
+- **Approach decisions:** [I separated the coomits to keep the commits organzied and to pace myself. Each commmit is for me working on each of the functions seperatly.]
 
 ---
 
