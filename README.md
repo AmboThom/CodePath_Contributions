@@ -3,7 +3,7 @@
 **Contribution Number:** [1]  
 **Student:** [Ambonique Thomas]  
 **Issue:** [https://github.com/marketcalls/openalgo/issues/897]  
-**Status:** [Phase I] [In Progress]
+**Status:** [Phase IV] [Complete]
 
 ---
 
@@ -61,11 +61,12 @@ Working Branch: https://github.com/AmboThom/openalgo/tree/feature/doc-touch-up]
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+[Two functions didnt have Google-doc style comments. This is to help other developers who want to understand these functions for later use.]
 
 ### Proposed Solution
 
-[High-level description of your fix approach]
+[Read both functions to understand how they are used and what they are for. Read python documentation to learn about 
+errors that the functions can raise.]
 
 ### Implementation Plan
 
@@ -103,39 +104,40 @@ Using UMPIRE framework (adapted):
 
 ### Manual Testing
 
-[What you tested manually and results]
+[Nothing was tested but I did proofread my comments to make sure that it can be understood by anyone else who would read them.]
 
 ---
 
 ## Implementation Notes
 
-### Week [X] Progress
+### Week [4] Progress
 
 [What you built this week, challenges faced, decisions made]
 
-### Week [Y] Progress
+### Week [4] Progress
 
 [Continue documenting as you work]
 
 ### Code Changes
 
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+- **Files modified:** [restx_api/telegram_bot.py]
+- **Key commits:** [https://github.com/marketcalls/openalgo/commit/911d4a2427ae8f02fb0f57ad861cce4303a977d2
+https://github.com/marketcalls/openalgo/commit/32de5f2768b49064cdbb53d0255f6ae56ef2ffe1]
+- **Approach decisions:** [I separated the coomits to keep the commits organzied and to pace myself.]
 
 ---
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** [https://github.com/marketcalls/openalgo/pull/1540]
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** [Added Google-style docstrings to telegram_bot helpers following PEP-257.]
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
+- [Date]: [N/A Maintainer hasn't reviewed or communicated yet.]
+- [Date]: [N/A]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** [Awaiting review]
 
 ---
 
@@ -143,11 +145,12 @@ Using UMPIRE framework (adapted):
 
 ### Technical Skills Gained
 
-[What you learned technically]
+[I learned how to write Google-style docstrings for functions. Before I just used single line comments but Google-style 
+docs helps it looks more readable and a bit easier to understand.]
 
 ### Challenges Overcome
 
-[What was hard and how you solved it]
+[The challenge that I faced was setting up my local machine. The repo gives no clue that the project is for Indian users and you would need an Indian Dhan account to use the project.]
 
 ### What I'd Do Differently Next Time
 
@@ -157,6 +160,11 @@ Using UMPIRE framework (adapted):
 
 ## Resources Used
 
-- [Link to helpful documentation]
-- [Tutorial or Stack Overflow post that helped]
+- [https://peps.python.org/pep-0257/]
+- [I used this prompt to help me setup on my local machine:
+    Im trying to install on my local environment. I understand that I need to connect a brokers api in the .env before I start. I'm
+  located in the united states, are the available connected brokers only for india users? how can I create an account or find an
+  united states broker that I can use instead? use the readme.md to find the available connected brokers or use this link
+  https://docs.openalgo.in/connect-brokers/brokers
+]
 - [GitHub issues or discussions that helped]
